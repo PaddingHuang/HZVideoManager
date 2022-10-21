@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8567C29128FFAAA700613B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567C29028FFAAA700613B9A /* AppDelegate.m */; };
+		8567C29428FFAAA700613B9A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567C29328FFAAA700613B9A /* SceneDelegate.m */; };
+		8567C29728FFAAA700613B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567C29628FFAAA700613B9A /* ViewController.m */; };
+		8567C29A28FFAAA700613B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8567C29828FFAAA700613B9A /* Main.storyboard */; };
+		8567C29C28FFAAAA00613B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8567C29B28FFAAAA00613B9A /* Assets.xcassets */; };
+		8567C29F28FFAAAA00613B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8567C29D28FFAAAA00613B9A /* LaunchScreen.storyboard */; };
+		8567C2A228FFAAAA00613B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567C2A128FFAAAA00613B9A /* main.m */; };
+		8567C2AC28FFAAAA00613B9A /* ZHVideoManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567C2AB28FFAAAA00613B9A /* ZHVideoManagerTests.m */; };
+		8567C2B628FFAAAA00613B9A /* ZHVideoManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567C2B528FFAAAA00613B9A /* ZHVideoManagerUITests.m */; };
+		8567C2B828FFAAAA00613B9A /* ZHVideoManagerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567C2B728FFAAAA00613B9A /* ZHVideoManagerUITestsLaunchTests.m */; };
+		856980272900236A004ACF0F /* ZHReplyKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8569802629002369004ACF0F /* ZHReplyKitViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8567C2A828FFAAAA00613B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8567C28428FFAAA700613B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8567C28B28FFAAA700613B9A;
+			remoteInfo = ZHVideoManager;
+		};
+		8567C2B228FFAAAA00613B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8567C28428FFAAA700613B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8567C28B28FFAAA700613B9A;
+			remoteInfo = ZHVideoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8567C28C28FFAAA700613B9A /* ZHVideoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHVideoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8567C28F28FFAAA700613B9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8567C29028FFAAA700613B9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8567C29228FFAAA700613B9A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8567C29328FFAAA700613B9A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8567C29528FFAAA700613B9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8567C29628FFAAA700613B9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8567C29928FFAAA700613B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8567C29B28FFAAAA00613B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8567C29E28FFAAAA00613B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8567C2A028FFAAAA00613B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8567C2A128FFAAAA00613B9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8567C2A728FFAAAA00613B9A /* ZHVideoManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHVideoManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8567C2AB28FFAAAA00613B9A /* ZHVideoManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHVideoManagerTests.m; sourceTree = "<group>"; };
+		8567C2B128FFAAAA00613B9A /* ZHVideoManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHVideoManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8567C2B528FFAAAA00613B9A /* ZHVideoManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHVideoManagerUITests.m; sourceTree = "<group>"; };
+		8567C2B728FFAAAA00613B9A /* ZHVideoManagerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHVideoManagerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		8569802529002369004ACF0F /* ZHReplyKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHReplyKitViewController.h; sourceTree = "<group>"; };
+		8569802629002369004ACF0F /* ZHReplyKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHReplyKitViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8567C28928FFAAA700613B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8567C2A428FFAAAA00613B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8567C2AE28FFAAAA00613B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8567C28328FFAAA700613B9A = {
+			isa = PBXGroup;
+			children = (
+				8567C28E28FFAAA700613B9A /* ZHVideoManager */,
+				8567C2AA28FFAAAA00613B9A /* ZHVideoManagerTests */,
+				8567C2B428FFAAAA00613B9A /* ZHVideoManagerUITests */,
+				8567C28D28FFAAA700613B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8567C28D28FFAAA700613B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8567C28C28FFAAA700613B9A /* ZHVideoManager.app */,
+				8567C2A728FFAAAA00613B9A /* ZHVideoManagerTests.xctest */,
+				8567C2B128FFAAAA00613B9A /* ZHVideoManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8567C28E28FFAAA700613B9A /* ZHVideoManager */ = {
+			isa = PBXGroup;
+			children = (
+				8567C2C428FFFAE800613B9A /* Collect */,
+				8567C28F28FFAAA700613B9A /* AppDelegate.h */,
+				8567C29028FFAAA700613B9A /* AppDelegate.m */,
+				8567C29228FFAAA700613B9A /* SceneDelegate.h */,
+				8567C29328FFAAA700613B9A /* SceneDelegate.m */,
+				8567C29528FFAAA700613B9A /* ViewController.h */,
+				8567C29628FFAAA700613B9A /* ViewController.m */,
+				8567C29828FFAAA700613B9A /* Main.storyboard */,
+				8567C29B28FFAAAA00613B9A /* Assets.xcassets */,
+				8567C29D28FFAAAA00613B9A /* LaunchScreen.storyboard */,
+				8567C2A028FFAAAA00613B9A /* Info.plist */,
+				8567C2A128FFAAAA00613B9A /* main.m */,
+			);
+			path = ZHVideoManager;
+			sourceTree = "<group>";
+		};
+		8567C2AA28FFAAAA00613B9A /* ZHVideoManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8567C2AB28FFAAAA00613B9A /* ZHVideoManagerTests.m */,
+			);
+			path = ZHVideoManagerTests;
+			sourceTree = "<group>";
+		};
+		8567C2B428FFAAAA00613B9A /* ZHVideoManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8567C2B528FFAAAA00613B9A /* ZHVideoManagerUITests.m */,
+				8567C2B728FFAAAA00613B9A /* ZHVideoManagerUITestsLaunchTests.m */,
+			);
+			path = ZHVideoManagerUITests;
+			sourceTree = "<group>";
+		};
+		8567C2C428FFFAE800613B9A /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+				8569802529002369004ACF0F /* ZHReplyKitViewController.h */,
+				8569802629002369004ACF0F /* ZHReplyKitViewController.m */,
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8567C28B28FFAAA700613B9A /* ZHVideoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8567C2BB28FFAAAA00613B9A /* Build configuration list for PBXNativeTarget "ZHVideoManager" */;
+			buildPhases = (
+				8567C28828FFAAA700613B9A /* Sources */,
+				8567C28928FFAAA700613B9A /* Frameworks */,
+				8567C28A28FFAAA700613B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHVideoManager;
+			productName = ZHVideoManager;
+			productReference = 8567C28C28FFAAA700613B9A /* ZHVideoManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8567C2A628FFAAAA00613B9A /* ZHVideoManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8567C2BE28FFAAAA00613B9A /* Build configuration list for PBXNativeTarget "ZHVideoManagerTests" */;
+			buildPhases = (
+				8567C2A328FFAAAA00613B9A /* Sources */,
+				8567C2A428FFAAAA00613B9A /* Frameworks */,
+				8567C2A528FFAAAA00613B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8567C2A928FFAAAA00613B9A /* PBXTargetDependency */,
+			);
+			name = ZHVideoManagerTests;
+			productName = ZHVideoManagerTests;
+			productReference = 8567C2A728FFAAAA00613B9A /* ZHVideoManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8567C2B028FFAAAA00613B9A /* ZHVideoManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8567C2C128FFAAAA00613B9A /* Build configuration list for PBXNativeTarget "ZHVideoManagerUITests" */;
+			buildPhases = (
+				8567C2AD28FFAAAA00613B9A /* Sources */,
+				8567C2AE28FFAAAA00613B9A /* Frameworks */,
+				8567C2AF28FFAAAA00613B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8567C2B328FFAAAA00613B9A /* PBXTargetDependency */,
+			);
+			name = ZHVideoManagerUITests;
+			productName = ZHVideoManagerUITests;
+			productReference = 8567C2B128FFAAAA00613B9A /* ZHVideoManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8567C28428FFAAA700613B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = ZH;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8567C28B28FFAAA700613B9A = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					8567C2A628FFAAAA00613B9A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 8567C28B28FFAAA700613B9A;
+					};
+					8567C2B028FFAAAA00613B9A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 8567C28B28FFAAA700613B9A;
+					};
+				};
+			};
+			buildConfigurationList = 8567C28728FFAAA700613B9A /* Build configuration list for PBXProject "ZHVideoManager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8567C28328FFAAA700613B9A;
+			productRefGroup = 8567C28D28FFAAA700613B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8567C28B28FFAAA700613B9A /* ZHVideoManager */,
+				8567C2A628FFAAAA00613B9A /* ZHVideoManagerTests */,
+				8567C2B028FFAAAA00613B9A /* ZHVideoManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8567C28A28FFAAA700613B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8567C29F28FFAAAA00613B9A /* LaunchScreen.storyboard in Resources */,
+				8567C29C28FFAAAA00613B9A /* Assets.xcassets in Resources */,
+				8567C29A28FFAAA700613B9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8567C2A528FFAAAA00613B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8567C2AF28FFAAAA00613B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8567C28828FFAAA700613B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8567C29728FFAAA700613B9A /* ViewController.m in Sources */,
+				8567C29128FFAAA700613B9A /* AppDelegate.m in Sources */,
+				856980272900236A004ACF0F /* ZHReplyKitViewController.m in Sources */,
+				8567C2A228FFAAAA00613B9A /* main.m in Sources */,
+				8567C29428FFAAA700613B9A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8567C2A328FFAAAA00613B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8567C2AC28FFAAAA00613B9A /* ZHVideoManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8567C2AD28FFAAAA00613B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8567C2B828FFAAAA00613B9A /* ZHVideoManagerUITestsLaunchTests.m in Sources */,
+				8567C2B628FFAAAA00613B9A /* ZHVideoManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8567C2A928FFAAAA00613B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8567C28B28FFAAA700613B9A /* ZHVideoManager */;
+			targetProxy = 8567C2A828FFAAAA00613B9A /* PBXContainerItemProxy */;
+		};
+		8567C2B328FFAAAA00613B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8567C28B28FFAAA700613B9A /* ZHVideoManager */;
+			targetProxy = 8567C2B228FFAAAA00613B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8567C29828FFAAA700613B9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8567C29928FFAAA700613B9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8567C29D28FFAAAA00613B9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8567C29E28FFAAAA00613B9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8567C2B928FFAAAA00613B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8567C2BA28FFAAAA00613B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8567C2BC28FFAAAA00613B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZHVideoManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyue.Video.ZHVideoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8567C2BD28FFAAAA00613B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZHVideoManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyue.Video.ZHVideoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8567C2BF28FFAAAA00613B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyue.Video.ZHVideoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHVideoManager.app/ZHVideoManager";
+			};
+			name = Debug;
+		};
+		8567C2C028FFAAAA00613B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyue.Video.ZHVideoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHVideoManager.app/ZHVideoManager";
+			};
+			name = Release;
+		};
+		8567C2C228FFAAAA00613B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyue.Video.ZHVideoManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHVideoManager;
+			};
+			name = Debug;
+		};
+		8567C2C328FFAAAA00613B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiyue.Video.ZHVideoManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHVideoManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8567C28728FFAAA700613B9A /* Build configuration list for PBXProject "ZHVideoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8567C2B928FFAAAA00613B9A /* Debug */,
+				8567C2BA28FFAAAA00613B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8567C2BB28FFAAAA00613B9A /* Build configuration list for PBXNativeTarget "ZHVideoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8567C2BC28FFAAAA00613B9A /* Debug */,
+				8567C2BD28FFAAAA00613B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8567C2BE28FFAAAA00613B9A /* Build configuration list for PBXNativeTarget "ZHVideoManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8567C2BF28FFAAAA00613B9A /* Debug */,
+				8567C2C028FFAAAA00613B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8567C2C128FFAAAA00613B9A /* Build configuration list for PBXNativeTarget "ZHVideoManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8567C2C228FFAAAA00613B9A /* Debug */,
+				8567C2C328FFAAAA00613B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8567C28428FFAAA700613B9A /* Project object */;
+}
